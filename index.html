@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moses Milambo - Portfolio &amp; Web Tech Journey</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Moses Milambo</h1>
+        <p>IT Student | Aspiring Web Developer &amp; Systems Designer</p>
+        <p>Bachelor's Degree in Information Technology, Mulungushi University. I am learning to build fast, well-structured websites and I add something new to this portfolio every week.</p>
+        <p><a href="#projects" class="btn">View My Projects</a></p>
+
+        <button id="theme-toggle" class="btn" type="button" aria-pressed="false">Switch to dark mode</button>
+        <button id="menu-toggle" class="btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+
+        <nav id="site-nav">
+            <a href="#about">About Me</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#learning-plan">Learning Plan</a>
+            <a href="#projects">Projects</a>
+            <a href="#photos">Photos</a>
+            <a href="#media">Media</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+            <p>
+                My name is Moses Milambo, currently pursuing a Bachelor's Degree in Information Technology at Mulungushi University. I am deeply passionate about modern software development, web systems architecture, and algorithmic design. Beyond coursework, I spend my time exploring technical analysis in financial markets, building automated logic, and mastering clean code practices. My goal is to leverage robust computer science and web infrastructure skills to develop high-performance software solutions tailored for modern digital needs.
+            </p>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="content-section">
+            <h2>My Hobbies</h2>
+            <ul>
+                <li>Playing Football</li>
+                <li>Listening To Music</li>
+                <li>Reading Books</li>
+                <li>Building Technical Analysis On The Financial Market</li>
+            </ul>
+        </section>
+
+        <!-- Learning Plan Section -->
+        <section id="learning-plan" class="content-section">
+            <h2>My Web Technologies Learning Plan</h2>
+            <p>To continually build my technical expertise, I follow a disciplined growth strategy:</p>
+            <ol>
+                <li>Master full-stack fundamentals by writing clean semantic HTML, CSS, and modern JavaScript daily.</li>
+                <li>Build hands-on, end-to-end web projects to put concepts into immediate practical application.</li>
+                <li>Study industry documentation and contribute open-source repositories via Git and GitHub.</li>
+            </ol>
+
+            <h3>Weekly Schedule</h3>
+            <table>
+                <caption>Weekly Web Learning Schedule</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Practice Task</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday &amp; Wednesday</td>
+                        <td>HTML5 &amp; Semantic Layouts</td>
+                        <td>Build structured WebTech assignments and forms</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday &amp; Thursday</td>
+                        <td>CSS3 Styling &amp; Responsive Design</td>
+                        <td>Style a page with a responsive layout</td>
+                    </tr>
+                    <tr>
+                        <td>Friday &amp; Saturday</td>
+                        <td>JavaScript &amp; DOM Manipulation</td>
+                        <td>Implement interactive scripts and logic functions</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Projects and Skills Section -->
+        <section id="projects" class="content-section">
+            <h2>Projects and Skills</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Development Environment</h3>
+                    <p>I set up VS Code and Live Server and learned to preview my pages instantly in the browser.</p>
+                </article>
+                <article class="project-card">
+                    <h3>Personal Website (HTML and CSS)</h3>
+                    <p>I built a multi-section website with a table, a form, photos, video and audio, styled with an external stylesheet.</p>
+                </article>
+                <article class="project-card">
+                    <h3>Interactive Website (JavaScript)</h3>
+                    <p>I added form validation, a photo viewer, a theme switch and a mobile menu, then published the site online.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section id="photos" class="content-section">
+            <h2>My Photos</h2>
+            <div class="gallery-viewer">
+                <figure>
+                    <img id="gallery-img" src="images/photo1.jpg" alt="Moses after attending a class on his birthday">
+                    <figcaption id="gallery-caption">My birthday, taken after class</figcaption>
+                </figure>
+                <div class="gallery-controls">
+                    <button id="prev-photo" class="btn" type="button">Previous</button>
+                    <span id="gallery-count">Photo 1 of 3</span>
+                    <button id="next-photo" class="btn" type="button">Next</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Media Showcase Section -->
+        <section id="media" class="content-section">
+            <h2>Media Showcase</h2>
+
+            <div class="media-container">
+                <h3>Introduction Video</h3>
+                <video controls width="100%">
+                    <source src="videos/intro.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>In this video I introduce myself, my programme and one web skill I hope to learn.</p>
+            </div>
+
+            <div class="media-container">
+                <h3>Audio Note</h3>
+                <audio controls>
+                    <source src="videos/voice.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p>In this recording I talk about one of my hobbies or why I study web technologies.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me directly or send a message using the form below!</p>
+
+            <!-- Direct Contact Info -->
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:mmilambo239@gmail.com">mmilambo239@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+260974253672">+260 974 253 672</a></p>
+            </div>
+
+            <p class="notice"><strong>Browser demonstration only &mdash; no message is sent.</strong></p>
+
+            <!-- Contact Form -->
+            <form id="contact-form" action="#" novalidate>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <span class="error" id="name-error" role="alert"></span>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <span class="error" id="email-error" role="alert"></span>
+
+                <label for="topic">Topic:</label>
+                <select id="topic" name="topic">
+                    <option>General question</option>
+                    <option>Project feedback</option>
+                    <option>Collaboration</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                <span class="error" id="message-error" role="alert"></span>
+
+                <button type="submit" class="btn">Preview Message</button>
+            </form>
+            <div id="form-preview" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Moses Milambo | ICT251 Web Technologies Activity 3</p>
+        <p><a href="https://github.com/mmilambo239-ux/ICT251-Activity2">View Source on GitHub</a></p>
+    </footer>
+
+</body>
+</html>
